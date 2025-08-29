@@ -1,5 +1,4 @@
-pub mod bloom_filter;
-pub use bloom_filter::BloomFilter;
+use rust_bloom_filter::BloomFilter;
 
 fn main() {
     // Create a BloomFilter with 100 bits and 3 hash functions.
